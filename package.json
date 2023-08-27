@@ -1,0 +1,33 @@
+{
+  "name": "movies-explorer-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "dev:inspect": "nodemon --inspect app.js",
+    "start": "node app.js",
+    "lint": "eslint \"**/*.js\" "
+  },
+  "keywords": [],
+  "author": "Oleg Trusov",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "celebrate": "^15.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-winston": "^4.2.0",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.4",
+    "validator": "^13.11.0",
+    "winston": "^3.10.0"
+  }
+}
