@@ -40,9 +40,16 @@ const createMovieData = celebrate({
   }),
 });
 
+const deleteMovieData = celebrate({
+  params: Joi.object().keys({
+    movieId: Joi.objectId().required(),
+  }),
+});
+
 module.exports = {
   createUserData,
   loginData,
   updateUserData,
   createMovieData,
+    deleteMovieData,
 };
