@@ -1,4 +1,5 @@
 const { celebrate, Joi } = require('celebrate');
+Joi.objectId = require('joi-objectid')(Joi);
 
 const { linkRegex } = require('../utils/constants');
 
